@@ -6,3 +6,4 @@ gems:
     - jekyll-feed
     - jekyll-seo-tag
     - jekyll-mentions
+    - jekyll-gist
