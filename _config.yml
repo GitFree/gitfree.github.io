@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://gitfree.me
 date_format: "ordinal"
-title: 码志
+title: 代码荣耀
 subtitle: "打码改变人生"
 description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+keywords: 代码荣耀, gitfree
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,11 +16,11 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: GitFree
 organization: Sogou, Inc.
 organization_url: https://www.sogou.com
 location: Beijing, China
-email: chumpma@gmail.com
+email: pengzhao.lh@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -77,17 +77,13 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
-
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+github_username: gitfree
+weibo_username: gitfree
+zhihu_username: gitfree
+twitter_username: gitfree
 
 # ---------------- #
 #      Comments    #
@@ -96,8 +92,8 @@ twitter_username: mzlogin
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+duoshuo_username: gitfree
+disqus_username: gitfree
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
 
@@ -106,10 +102,3 @@ lazy_load_duoshuo: true
 # ---------------- #
 google:
     analytics_id: UA-80669434-1
-
-# ---------------- #
-#      Datas       #
-# ---------------- #
-skill_software_keywords: [Java, C++, Python, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
-skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]

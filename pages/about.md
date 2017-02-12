@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: GitFree
 comments: true
 menu: 关于
 permalink: /about/
@@ -19,13 +19,10 @@ permalink: /about/
 
 ## 联系
 
-* GitHub：[@mzlogin](https://github.com/mzlogin)
-* 掘金：[@mzlogin](http://gold.xitu.io/user/570ddaeb2e958a005c63b2da)
-* LinkedIn：[@mazhuang](https://www.linkedin.com/in/mazhuang)
+* GitHub：[@{{ site.username }}](https://github.com/{{ site.username }})
 * 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@mzlogin](http://weibo.com/mzlogin)
-* 知乎: [@mzlogin](http://www.zhihu.com/people/mzlogin)
-* 豆瓣: [@壮哥不胖](http://www.douban.com/people/freedim)
+* 微博: [@{{ site.weibo_username}}](http://weibo.com/{{ site.weibo_username }})
+* 知乎: [@{{ site.zhihu_username }}](http://www.zhihu.com/people/{{ site.zhihu_username }})
 
 ## Skill Keywords
 
