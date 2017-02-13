@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 记"第一篇"博客的诞生
+categories: [吐槽]
 description: 终于开始了第一篇博客
 keywords: 第一篇博客, 吐槽
 ---
