@@ -93,4 +93,6 @@ lazy_load_duoshuo: true
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: xx
+    analytics_id:
+baidu:
+    key: 5c6f21bc7ce04a72d753c401a9e799ca
