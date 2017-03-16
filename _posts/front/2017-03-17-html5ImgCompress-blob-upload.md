@@ -47,6 +47,6 @@ html5ImgCompress压缩图片使用非常简单，直接以图片文件做为输�
 使用html5ImgCompress压缩后上传到服务器有两种方案： 
 1. 直接将压缩后的base64上传服务器，服务端需要专门订制开发
 2. 将base64转化为Blob对象，服务端可以复用原来的文件上传逻辑
-显然方法2比1要通用，对已有业务修改最小，所以这里我们只展示了方法2的实现：
+显然方法2比1要通用，对已有业务修改最小，所以这里我们只展示了方法2的[实现](https://jsfiddle.net/gitfree/tgh5gwjm/)：
 
-<script async src="//jsfiddle.net/gitfree/tgh5gwjm/5/embed/js,html,result/"></script>
+<script async src="//jsfiddle.net/gitfree/tgh5gwjm/embed/js,html,result/"></script>
