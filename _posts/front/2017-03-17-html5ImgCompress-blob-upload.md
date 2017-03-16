@@ -49,5 +49,4 @@ html5ImgCompress压缩图片使用非常简单，直接以图片文件做为输�
 2. 将base64转化为Blob对象，服务端可以复用原来的文件上传逻辑
 显然方法2比1要通用，对已有业务修改最小，所以这里我们只展示了方法2的实现：
 
-<script async src="//jsfiddle.net/gitfree/tgh5gwjm/5/embed/js,html,result/">
-</script>
+<script async src="//jsfiddle.net/gitfree/tgh5gwjm/5/embed/js,html,result/"></script>
