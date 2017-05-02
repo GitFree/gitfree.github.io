@@ -6,7 +6,8 @@ description: Nginx 配置 Https 出现no "ssl_certificate" is defined问题原�
 keywords: Nginx, 运维
 ---
 今天为线上Nginx更换SSL证书的过程中遇到了一个诡异的错误，折腾了挺长时间，事后回想起来还是挺容易跳坑的，所以想记录下来，
-一是留作以后查看，二来也许可以帮助一帮跳坑的小伙伴。  
+一是留作以后查看，二来也许可以帮助一帮跳坑的小伙伴。
+
 ### 现象
 "配置好"（当然只是自认为配置好）nginx ssl证书后，请求http站点正常，请求https站点打不开，nginx错误日志如下：
 ```log
@@ -15,7 +16,8 @@ keywords: Nginx, 运维
 2017/05/02 16:19:12 [error] 19656#19656: *6 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: xxx, server: 0.0.0.0:443
 ```
 看错误提示意思是ssl_certificate没有配置，可是检查nginx配置，ssl_certificate和ssl_certificate_key两个选项明明都已经配置了啊，
-再检查配置的证书路径、权限也都没有任何问题，真是百思不得其解啊。  
+再检查配置的证书路径、权限也都没有任何问题，真是百思不得其解啊。
+
 最后在网上搜了一通，终于在StackOverflow一个问题找到了答案（问题地址懒得找了，就不贴了哈），大概意思是说ssl_certificate必须在http段中先定义，
 在server段才配置ssl_certificate已经来不及了，检查我的nginx配置，ssl_certificate确实只在server段定义，而在http段未定义，nginx配置如下:
 ```nginx
